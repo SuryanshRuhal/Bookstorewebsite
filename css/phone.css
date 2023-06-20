@@ -1,0 +1,83 @@
+/*navigation bar*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 0.9rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    text-align: center;
+}#navbar .burger{
+    display: block;
+}
+#navbar .visible{
+    opacity: 0;
+
+}
+/*home*/
+#home{
+ padding:0px 16px;
+ height:773px;
+} 
+#home::before{
+    padding: 7px, 10px ;
+    height: 968px;
+
+}
+#home div{
+    font-size: 22px;
+}
+/*about*/
+#about{
+    padding: 0px 23px;
+    height: 500px;
+}
+#about::before{
+    padding: 0px 0px;
+    height:500px;
+}
+#about div{
+    font-size: 21px;
+    padding: 0px 14px;
+    margin: 8px 7px
+}
+#about h1{
+    font-size: 2.8rem;
+    padding: 9px 14px;
+}
+
+/*service*/
+#service{
+    flex-direction: column;
+}
+#service .box{
+    margin: 6px 5px;
+} 
+
+/*client*/
+#clients{
+   flex-wrap: wrap;
+   display: flex;
+}
+#clients img{
+        width: 97px;
+        padding: 8px;
+        height: auto;
+}
+.clientitems {
+    padding: 2px;
+}
+
+/*contact*/#contactus h1 {
+    font-size: 2.8rem;
+}
+#contactbox form {
+    width: 78%;
+    margin: 4px 8px;
+}
+
+/*footer*/
+/*utility class*/
+.hprimary {
+    font-size: 23px;
+}

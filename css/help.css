@@ -1,0 +1,215 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#navbar{
+    display:flex;
+    position:sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+
+}
+#navbar::before{
+    content: "";
+    position:absolute;
+    background-color: rgb(241, 70, 127);
+    top:0px;
+    left:0px;
+    opacity:0.9;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+
+}
+#navbar .sbox{
+    padding: 9px 168px;
+    color: aliceblue;
+}
+#navbar input{
+    border: 3px solid black;
+    border-radius: 13px;
+    padding: 4px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 6px 24px;
+    padding: 3px 16px
+}
+#navbar ul a{
+    color:white;
+    display: block;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 52px;
+
+}
+#navbar ul a:hover{
+    color:rgb(30, 1, 37);
+    background-color: rgb(151 11 88); 
+}
+#help{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 68px;
+    justify-content: center;
+    height:418px;
+    align-items: center;
+}
+#help::before{
+    content:"";
+    background: rgb(178, 197, 212);
+    position: absolute;
+    top: -92px;
+    left: 0px;
+    height: 603px;
+    width: 100%;
+    z-index: -2;
+    opacity :0.9;
+}
+#help h1{
+    color: rgb(151 11 88);
+    text-align: center;
+    font-size: 3.5rem;
+}
+#help div{
+    color: rgb(137 98 12);
+    text-align: center;
+    font-size: 1.5rem ;
+    font-family: 'Playball', cursive;
+    
+}
+#navbar .sbox input{
+    width:145%;
+}
+#bto h1{
+    color:rgb(151 11 88);
+    font-size: 3.5rem;
+}
+#btop{
+    display :flex;
+    padding: 5px 5px;
+    border: solid 5px blue;
+    background-color: antiquewhite;
+    margin:17px;
+}
+#btop{
+    display:flex;
+    border: solid 16px rgb(59 2 53);
+    background-color: antiquewhite;
+    margin: 17px; 
+    padding: 0px 24px;
+}
+#btop .container{
+    display:flex;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    flex-wrap: wrap;
+    width:100%;
+    -ms-flex-wrap: wrap;
+    padding:4px 4px;
+}
+#btop .column1{
+    -webkit-box-flex: 1;
+    -ms-flex: 50%;
+    flex: 50%;
+    width:50%;
+}
+#btop .column2{
+    -webkit-box-flex: 2;
+    -ms-flex: 50%;
+    flex:50%;
+    width:50%;
+}
+#btop .box{
+    border: solid 3px black;
+    border-radius :23px;
+    margin: 15px 14px;
+    padding: 15px 10px;
+    background: #ffeafe;
+}
+#btop .box img{
+    display:block;
+    margin:auto;
+    height:200px;
+    width:200px;
+}
+#btop .box .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #btop .box .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ }
+ #talk{
+    background-color: azure;
+ }
+ #talk h1{
+    color:rgb(151 11 88);
+    font-size: 3.5rem;
+}
+#talk .talk{
+    margin: 23px;
+    padding:23px
+
+}
+#talk textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 22px;
+    font-size: 1.3rem
+}
+#talk label{
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+#talk .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #talk .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ }
+footer{
+    background-color: rgb(41, 1, 43);
+    color: antiquewhite;
+    padding: 5px;
+}
+/*utility classes*/
+.hprimary{
+    font-size: 2.3rem;
+    text-align: center;
+    padding :17px;
+}
+.hsecondary{
+    font-size: 2.0rem;
+    padding: 17px;
+}
+
+/*button*/
+.btn{
+    padding: 12px 23px;
+    margin: 17px;
+    border: 2px solid rgb(16, 1, 19);
+    color: wheat;
+    border-radius: 17px;
+    background-color: rgb(56 38 63);
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    color:rgb(55, 4, 68);
+    background-color: rgb(253, 190, 221); 
+}
+.center {
+    text-align: center;
+}

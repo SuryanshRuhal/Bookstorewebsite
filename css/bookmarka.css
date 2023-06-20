@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    display:flex;
+    padding: 0px;
+    position: sticky;
+    align-items: center;
+    top:0px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+#navbar::before{
+    content:"";
+    position:absolute;
+    background: rgb(119 10 10);
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 1.5;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 6px 24px;
+    padding: 3px 16px
+}
+
+#navbar ul a{
+    color:white;
+    display: block;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 52px;
+
+}
+#navbar ul a:hover{
+    color:rgb(129 3 3);
+    background-color: rgb(236, 178, 130); 
+}
+#service{
+    display: flex;
+    border: solid 16px rgb(129 3 3);
+    background-color: #cbc2aa;
+    margin: 17px;
+    padding: 0px 24px;
+}
+.serv h1{
+    color: rgb(129 3 3);
+    font-size: 3.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+#service .container{
+    display: -webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    padding: 33px 0px;
+    flex-wrap: wrap;
+    width:100%;
+    -ms-flex-wrap: wrap;
+}
+#service .column1{
+    -webkit-box-flex: 1;
+    -ms-flex: 50%;
+    flex:50%;
+    width:50%;
+
+}
+#service .column2{
+    -webkit-box-flex: 2;
+    -ms-flex: 50%;
+    flex:50%;
+    width:50%;
+}
+
+#service .box{
+    border: 7px solid rgb(129 3 3);
+    margin: 15px 14px;
+    padding: 15px 10px;
+    background: #ffeafe;
+    border-radius:30px;
+}
+#service .box img{
+    height:133px;
+    width: 208px;
+    display: block;
+    margin:auto;
+
+}
+#service .box p{
+    font-family:'Playball', cursive;
+}
+#service .box .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #service .box .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ }
+ footer{
+    background-color: rgb(119 10 10);
+    color: antiquewhite;
+    padding: 5px;
+}
+/*utility classes*/
+.hprimary{
+    font-size: 2.3rem;
+    text-align: center;
+    padding :17px;
+}
+.hsecondary{
+    font-size: 2.0rem;
+    padding: 17px;
+}
+/*button*/
+.btn{
+    padding: 12px 23px;
+    margin: 17px;
+    border: 2px solid rgb(16, 1, 19);
+    color: wheat;
+    border-radius: 17px;
+    background-color: rgb(119 10 10);
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    color:rgb(55, 4, 68);
+    background-color: rgb(236, 178, 130); 
+}
+.center {
+    text-align: center;
+}

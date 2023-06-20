@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#jour{
+    border: solid 16px rgb(89 2 34);
+    background-color: antiquewhite;
+    margin: 17px;
+    padding: 0px 24px;
+}
+#jr{
+    display: flex;
+}
+#journal h1{
+    color: rgb(131 11 55);
+    font-size: 3.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+#jour .row{
+    display: flex;
+    padding: 33px 0px;
+    flex-wrap: wrap;
+}
+
+#jour .box{
+    border: 7px solid rgb(89 2 34);
+    margin: 15px 14px;
+    padding: 15px 10px;
+    width: 233px;
+    background: #eebad6;
+    border-radius:30px;
+}
+
+#jour .box img{
+    height:133px;
+    width: 208px;
+    display: block;
+    margin:auto;
+
+}
+#jour .box p{
+    font-family:'Playball', cursive;
+}
+#jour .marketing{
+    text-align: center;
+}
+#jour .price{
+   text-decoration: line-through;
+}
+#jour .box .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #jour .box .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ }
+ footer{
+    background-color: rgb(131 11 55);
+    color: antiquewhite;
+    padding: 5px;
+}
+/*utility classes*/
+.hprimary{
+    font-size: 2.3rem;
+    text-align: center;
+    padding :17px;
+}
+.hsecondary{
+    font-size: 2.0rem;
+    padding: 17px;
+}
+.hthree{
+    font-size: 1.5rem;
+    padding: 17px;
+}
+
+/*button*/
+.btn{
+    padding: 12px 23px;
+    margin: 17px;
+    border: 2px solid rgb(89 2 34);
+    color: wheat;
+    border-radius: 17px;
+    background-color: rgb(131 11 55);
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    color:rgb(131 11 55);
+    background-color: rgb(253, 190, 221); 
+}
+.center {
+    text-align: center;
+}

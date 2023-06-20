@@ -1,0 +1,156 @@
+*{margin: 0px;
+    padding: 0px;}
+
+#navbar{
+    display:flex;
+    padding: 0px;
+    position: sticky;
+    align-items: center;
+    top:0px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+#navbar::before{
+    content:"";
+    position:absolute;
+    background: rgb(0 56 71);
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 1.5;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 6px 24px;
+    padding: 3px 16px
+}
+
+#navbar ul a{
+    color:white;
+    display: block;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 52px;
+
+}
+#navbar ul a:hover{
+    color:rgb(30, 1, 37);
+    background-color: rgb(76, 134, 156); 
+}
+#aboutus{
+    padding: 3px 3px;
+    display: flex;
+    flex-direction: column;
+    height:708px;
+    width:100%;
+    justify-content: center;
+    align-items: center ;
+}
+#aboutus::before{
+    content: "";
+    position:absolute;
+    top:0px;
+    left: 0px;
+    height: 785px;
+    width:100%;
+    background: url("../image/mystery\ box.jpg") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+#aboutus h1{
+    color: rgb(5 64 79);
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 11px;
+    
+}
+#aboutus div{
+    color: rgb(59 58 10);
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 7px 84px;
+    font-family: 'Playball', cursive;
+}
+#category{
+    padding:4px 4px;
+}
+#category h1{
+    color: aquamarine;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+#category .mystery{
+    display: flex;
+    margin:20px;
+}
+
+#category .box{
+    border: solid 10px #040457;
+    border-radius: 41px;
+    margin: 2px 28px;
+    flex: 1;
+    padding: 5px 42px;
+    background-color: antiquewhite;
+}
+#category .box img{
+    height:150px;
+    width:200px;
+    display:block;
+    margin: auto;
+}
+#category .box p{
+    font-family:'Playball', cursive;
+    font-size: 1.35rem;
+}
+#category .box .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #category .box .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ } 
+ footer{
+    background-color: #01012b;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+
+
+.hprimary{
+    font-size: 2.3rem;
+    text-align: center;
+    padding :17px;
+}
+.hsecondary{
+    font-size: 2.0rem;
+    padding: 17px;
+}
+
+
+/*button*/
+.btn{
+    padding: 12px 23px;
+    margin: 17px;
+    border: 2px solid rgb(16, 1, 19);
+    color: wheat;
+    border-radius: 17px;
+    background-color: rgb(4 4 87 / 95%);
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    color:rgb(4 4 87 / 95%);
+    background-color: rgb(76, 134, 156); 
+}
+.center {
+    text-align: center;
+}

@@ -1,0 +1,361 @@
+/*css reset*/
+*{margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{ 
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:0px;     
+}
+/* logo*/
+#logo{
+    margin: 10px 14px ;
+}
+#logo img{
+    height:  56px;
+    margin: 5px 8px;
+    border-radius: 45px;
+    border:1px;
+    border-color: rgb(255, 237, 214);
+}
+#navbar{ 
+    position: sticky;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+#navbar::before{
+    content:"";
+    background-color: rgb(38, 1, 43);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity :0.9;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul a{
+    color:white;
+    display: block;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 52px;
+
+}
+#navbar ul a:hover{
+    color:rgb(30, 1, 37);
+    background-color: rgb(253, 165, 206); 
+}
+#navbar .burger{
+    display: none;
+    position:absolute;
+    right:5%;
+    top: 28px;
+}
+#navbar .line{
+    width:43px;
+    height:6px;
+    background-color: antiquewhite;
+    margin:6px;
+}
+
+/* home page */
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 68px;
+    justify-content: center;
+    height:418px;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    background: url("../bg1.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: -92px;
+    left: 0px;
+    height: 603px;
+    width: 100%;
+    z-index: -1;
+    opacity :0.9;
+    animation:change 60s infinite ease-in-out;
+}
+#home h1{
+    color: rgb(237 206 223);
+    text-align: center;
+    font-size: 3.5rem;
+    animation: h1color 60s infinite ease-in-out;
+}
+#home div{
+    color: rgb(248, 226, 178);
+    text-align: center;
+    font-size: 1.5rem ;
+    font-family: 'Playball', cursive;
+    animation:divcolor 60s infinite ease-in-out;
+    
+}
+@keyframes change{
+    0%{
+        background: url("../bg1.jpg") no-repeat center center/cover; 
+    }
+    20%{
+        background: url("../bg2.jpg") no-repeat center center/cover; 
+    }
+    40%{
+        background: url("../bg3.jpg") no-repeat center center/cover; 
+    }
+    60%{
+        background: url("../bg4.jpg") no-repeat center center/cover; 
+    }
+    80%{
+        background: url("../bg image.jpg") no-repeat center center/cover; 
+    }
+    100%{
+        background: url("../bg5.jpg") no-repeat center center/cover; 
+    } 
+}
+@keyframes h1color{
+    0%{
+        color: rgb(237 206 223);
+    }
+    20%{
+        color:rgb(125 2 2);
+    }
+    40%{
+        color: rgb(72, 2, 75); 
+    }
+    60%{
+         color: rgb(218, 62, 0);
+    }
+    80%{
+        color: rgb(114 33 3);
+    }
+    100%{
+        color: rgb(101 36 81);
+    } 
+}
+@keyframes divcolor{
+    0%{
+        color: rgb(248, 226, 178); 
+    }
+    20%{
+       color: rgb(249 249 249);
+    }
+    40%{
+        color: rgb(202, 6, 98);
+    }
+    60%{
+        color: rgb(88, 3, 17);
+    }
+    80%{
+        color: rgb(233 214 77);
+    }
+    100%{
+        color: rgb(248, 226, 178);
+    }
+    
+}
+#home .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #home .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ } 
+ /*about us*/
+#about{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 12px 44px;
+    height: 548px;
+    justify-content: center;
+    align-items: center
+}
+
+#about::before{
+    padding:33px 25px;
+    content: "";
+    position:absolute;
+    background: url("../img1.jpg") no-repeat center center /cover;
+    height:500px;
+    width: 95%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#about h1{
+    color: rgb(65, 5, 80);
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: 'Rubik', sans-serif;
+    padding: 34px 27px;
+}
+#about div{
+    color: rgb(89 43 70);
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Playball', cursive;
+    padding: 0px 34px;
+    margin: 34px 45px
+}
+/*service */
+#service{
+    display: flex;
+    margin: 15px;
+    
+}
+#ourservice h1{
+    color: rgb(38, 1, 43);
+    font-size: 3.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+#service .box{
+    border: 7px solid rgb(55, 4, 68);
+    margin: 0px 5px;
+    padding: 15px 10px;
+    background: #ffeafe;
+    flex:1;
+    border-radius:30px;
+
+    
+}
+#service .box img{
+    height:128px;
+    width: 159px;
+    display: block;
+    margin:auto;
+
+}
+#service .box p{
+    font-family:'Playball', cursive;
+    font-size: 1.35rem;
+}
+#service .box .btn{
+    display: block;
+    margin: 16px auto;
+ }
+ #service .box .btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+ } 
+
+/*clioents*/
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clientitems img{
+    height: 138px;
+}
+.clientitems{
+    padding: 14px;
+}
+#ourclients{
+    height:446px;
+}
+#ourclients::before{
+    content: "";
+    position: absolute;
+    background: url(../img2.jpg) no-repeat center center/cover;
+    height: 446px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#ourclients h1{
+    color: rgb(38, 1, 43);
+    font-size: 3.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+/*contact us*/
+#contactus{
+    
+   margin-top: 5px;
+    position: relative;
+}
+#contactus h1{
+    color: rgb(38, 1, 43);
+    font-size: 3.8rem;
+    font-family: 'Rubik', sans-serif;
+}
+#contactus::before{
+    content: "";
+    position: absolute;
+    background: url("../contact.jpg") no-repeat center center/ cover;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+    
+}
+#contactbox input,
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 22px;
+    font-size: 1.3rem
+}
+#contactbox form{
+    width: 40%;
+
+}
+#contactbox label{
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+footer{
+    background-color: rgb(41, 1, 43);
+    color: antiquewhite;
+    padding: 5px;
+}
+/*utility classes*/
+.hprimary{
+    font-size: 2.3rem;
+    text-align: center;
+    padding :17px;
+}
+.hsecondary{
+    font-size: 2.0rem;
+    padding: 17px;
+}
+
+/*button*/
+.btn{
+    padding: 12px 23px;
+    margin: 17px;
+    border: 2px solid rgb(16, 1, 19);
+    color: wheat;
+    border-radius: 17px;
+    background-color: rgb(56 38 63);
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    color:rgb(55, 4, 68);
+    background-color: rgb(253, 190, 221); 
+}
+.center {
+    text-align: center;
+}
