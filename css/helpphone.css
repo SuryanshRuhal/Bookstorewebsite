@@ -1,0 +1,78 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul {
+    margin-left: 0px;
+}
+#navbar ul li a{
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+#navbar .burger{
+    display: block;
+}
+#navbar .sbox {
+    padding: 10px 143px;
+    padding-left: 63px;
+}
+#navbar ul li {
+    margin: 6px 2px;
+    padding: 3px 7px;
+}
+
+/*help*/
+#help{
+    padding: 0px 4px;
+    height: 521px;
+}
+#help h1{
+    padding:2px 2px;
+    font-size: 2.0rem;
+
+} 
+#help::before{
+    padding: 7px 10px ;
+    height: 683px;
+
+}
+#help .about{
+    font-size: 1.8;
+    padding:2px 2px;
+
+}
+
+#help div{
+    font-size: 22px;
+}
+#btop{
+    flex-direction: column;
+}
+#btop .box{
+    margin: 6px 5px;
+} 
+#btop .container{
+    display: block;
+}
+#btop .column1 {
+    -webkit-box-flex: 1;
+    -ms-flex: 50%;
+    flex: 50%;
+    width: 100%;
+}
+#btop .column2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 50%;
+    flex: 50%;
+    width: 100%;
+}
+
+
+/*utility class*/
+.hprimary {
+    font-size: 23px;
+}
+.hsecondary {
+    font-size: 23px;
+}

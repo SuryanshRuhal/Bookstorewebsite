@@ -27,8 +27,8 @@
 #navbar ul li{
     list-style: none;
     font-size: 1.3rem;
-    margin: 6px 24px;
-    padding: 3px 16px
+    margin: 6px 0px;
+    padding: 3px 9px
 }
 
 #navbar ul a{
@@ -54,12 +54,16 @@
 }
 #notebook h1{
     color: rgb(229 101 7);
-    font-size: 3.8rem;
+    font-size: 3.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+#notebook h2 {
+    color: rgb(229 101 7);
     font-family: 'Rubik', sans-serif;
 }
 #marks .row{
     display: flex;
-    padding: 33px 0px;
+    padding: 3px 0px;
     flex-wrap: wrap;
 }
 
@@ -109,8 +113,8 @@
     padding :17px;
 }
 .hsecondary{
-    font-size: 2.0rem;
-    padding: 17px;
+    font-size: 3.0rem;
+    padding: 16px;
 }
 .hthree{
     font-size: 1.5rem;

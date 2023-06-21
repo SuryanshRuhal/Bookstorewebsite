@@ -1,0 +1,39 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul {
+    margin-left: 0px;
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+#navbar .burger{
+    display: block;
+}
+
+
+#service{
+    display: block;
+}
+#service .box{
+    margin: 6px 5px;
+} 
+#service .column1 {
+    -webkit-box-flex: 1;
+    -ms-flex: 50%;
+    flex: 50%;
+    width: 100%;
+}
+
+
+/*utility class*/
+.hprimary {
+    font-size: 23px;
+}
+.hsecondary {
+    font-size: 23px;
+}

@@ -23,7 +23,7 @@
 
 }
 #navbar .sbox{
-    padding: 9px 168px;
+    padding: 9px 116px;
     color: aliceblue;
 }
 #navbar input{
@@ -63,7 +63,7 @@
 }
 #help::before{
     content:"";
-    background: rgb(178, 197, 212);
+    background: rgb(255 222 194);
     position: absolute;
     top: -92px;
     left: 0px;
@@ -100,7 +100,7 @@
 }
 #btop{
     display:flex;
-    border: solid 16px rgb(59 2 53);
+    border: groove 16px rgb(59 2 53);
     background-color: antiquewhite;
     margin: 17px; 
     padding: 0px 24px;
@@ -127,7 +127,7 @@
     width:50%;
 }
 #btop .box{
-    border: solid 3px black;
+    border: groove 3px black;
     border-radius :23px;
     margin: 15px 14px;
     padding: 15px 10px;
@@ -149,7 +149,7 @@
     text-decoration: none;
  }
  #talk{
-    background-color: azure;
+    background-color: rgb(255 222 194);
  }
  #talk h1{
     color:rgb(151 11 88);

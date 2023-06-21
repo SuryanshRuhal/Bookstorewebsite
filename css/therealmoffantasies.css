@@ -85,7 +85,7 @@ html{
 }
 #orderbooks{
     display: flex;
-    border: solid 16px rgb(59 2 53);
+    border: groove 16px rgb(59 2 53);
     background-color: antiquewhite;
     margin: 17px; 
     padding: 0px 24px;
