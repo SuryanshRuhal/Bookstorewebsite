@@ -48,16 +48,16 @@
 
 /*service*/
 .slide img{
-    height:490px;
+    height:420px;
 }
 .slider{
-    height:492px;
+    height:422px;
 }
 .slides{
-    height:492px;
+    height:422px;
 }
 .navigation-auto{
-    height: 422px;
+    margin-top: 352px;
 }
 #service{
     flex-direction: column;
