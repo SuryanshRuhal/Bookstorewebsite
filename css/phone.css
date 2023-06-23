@@ -47,6 +47,18 @@
 }
 
 /*service*/
+.slide img{
+    height:490px;
+}
+.slider{
+    height:492px;
+}
+.slides{
+    height:492px;
+}
+.navigation-auto{
+    height: 422px;
+}
 #service{
     flex-direction: column;
 }
