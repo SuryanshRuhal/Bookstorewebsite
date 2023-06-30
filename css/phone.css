@@ -1,4 +1,7 @@
 /*navigation bar*/
+#navbar1{
+    display:none
+}
 #navbar{
     flex-direction: column;
 }
