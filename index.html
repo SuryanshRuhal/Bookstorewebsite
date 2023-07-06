@@ -10,6 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Playball&family=Rubik&display=swap" rel="stylesheet">
 <link rel="stylesheet"href="css/style.css">
 <link rel="stylesheet" media="only screen and (max-width: 1300px)" href="css/phone.css">   
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("YOUR_PUBLIC_KEY");
+   })();
+</script>
 </head>
 <body>
   <nav id="navbar1">
@@ -224,16 +232,19 @@
     <section id="contactus">
       <h1 class="hprimary center">CONTACT US</h1>
       <div id="contactbox">
-        <form action="">
+        <form action=""id="form">
           <div class="formgroup">
             <label for="name">NAME: </label>
-            <input type="text" name="name" id="'name" placeholder="NAME">
+            <input type="text" name="name" id="name" placeholder="NAME">
             <label for="name">E-MAIL: </label>
-            <input type="mail" name="name" id="'mail" placeholder="enter your email id">
+            <input type="mail" name="name" id="mail" placeholder="enter your email id">
             <label for="name">PHONE NO.: </label>
-            <input type="phone" name="name" id="'phone" placeholder="enter your Phone no.">
+            <input type="phone" maxlength="10" name="name" id="phone" placeholder="enter your Phone no.">
             <label for="name">MESSAGE: </label>
             <textarea name="MESSAGE" id="message" cols="30" rows="10"></textarea>
+            <div class="b">
+              <button type="submit" class="btn" id="submit">SEND</button>
+            </div>
           </div>
         </form>
       </div>
